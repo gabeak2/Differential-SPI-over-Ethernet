@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "b38015da-060d-4ebc-988b-b1901444fc07")
 	(paper "B")
+	(title_block
+		(title "KASM Differential SPI Over Ethernet Board")
+		(date "2024-07-16")
+		(rev "1")
+		(company "UC Observatories")
+	)
 	(lib_symbols
 		(symbol "Connector:RJ45_LED_Shielded"
 			(pin_names
@@ -4565,6 +4571,16 @@
 		)
 		(uuid "07153656-51fa-4495-8532-7dace05992ba")
 	)
+	(text "Client mode"
+		(exclude_from_sim no)
+		(at 217.678 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c8304ea-27af-4193-b392-2c20dc17efac")
+	)
 	(text "Host mode"
 		(exclude_from_sim no)
 		(at 217.17 235.204 0)
@@ -4574,6 +4590,16 @@
 			)
 		)
 		(uuid "2d7d5489-3950-4762-8544-363d815a523f")
+	)
+	(text "Client mode"
+		(exclude_from_sim no)
+		(at 217.678 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38bb7511-29d1-4345-847c-677c808ab6e5")
 	)
 	(text "Client mode"
 		(exclude_from_sim no)
@@ -4605,6 +4631,16 @@
 		)
 		(uuid "621c1668-239b-4adb-8c7e-0bf8f6d88ee8")
 	)
+	(text "Host mode"
+		(exclude_from_sim no)
+		(at 217.17 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "836f6948-c3c7-4623-93c9-f4d5a3be9357")
+	)
 	(text "Jumper lets us choose whether\nwe are connecting to host \nside or client side.  \nHost side transmits clk, \nclient side receives clk"
 		(exclude_from_sim no)
 		(at 99.06 88.646 0)
@@ -4625,6 +4661,16 @@
 			)
 		)
 		(uuid "d3072b12-aba7-46a0-b327-f49d7c6a1a65")
+	)
+	(text "Host mode"
+		(exclude_from_sim no)
+		(at 216.916 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8860a58-58f6-46a0-b134-36e858e31cf7")
 	)
 	(text "Host mode"
 		(exclude_from_sim no)
@@ -4735,7 +4781,7 @@
 		)
 		(uuid "1df69458-9249-4289-b781-fea7f7f5974a")
 	)
-	(label "SPI2_SCK_Z"
+	(label "SPI2_SCK_Y"
 		(at 212.09 208.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5010,7 +5056,7 @@
 		)
 		(uuid "73c744b2-5d38-43d8-9188-bc26a9ea4771")
 	)
-	(label "SPI2_SCK_Y"
+	(label "SPI2_SCK_Z"
 		(at 212.09 233.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5197,7 +5243,7 @@
 		)
 		(uuid "bc6709cf-152b-40b0-9ab2-24dc18dbaf79")
 	)
-	(label "SPI1_SCK_Z"
+	(label "SPI1_SCK_Y"
 		(at 212.09 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5362,7 +5408,7 @@
 		)
 		(uuid "f97cf63f-ac05-4f9a-9fa5-bd9c02fcd170")
 	)
-	(label "SPI1_SCK_Y"
+	(label "SPI1_SCK_Z"
 		(at 212.09 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7822,7 +7868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP3078EEN"
+		(property "Value" "SP3077EEN"
 			(at 140.6241 42.7298 0)
 			(effects
 				(font
@@ -7858,7 +7904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95362"
+		(property "LCSC" "C916162"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -8130,7 +8176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP3078EEN"
+		(property "Value" "SP3077EEN"
 			(at 140.6241 88.4498 0)
 			(effects
 				(font
@@ -8166,7 +8212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95362"
+		(property "LCSC" "C916162"
 			(at 138.43 102.87 0)
 			(effects
 				(font
@@ -8371,7 +8417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP3074EEN"
+		(property "Value" "SP3077EEN"
 			(at 140.6241 154.4898 0)
 			(effects
 				(font
@@ -8407,7 +8453,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C30356"
+		(property "LCSC" "C916162"
 			(at 138.43 168.91 0)
 			(effects
 				(font
@@ -12036,7 +12082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP3074EEN"
+		(property "Value" "SP3077EEN"
 			(at 140.6241 200.2098 0)
 			(effects
 				(font
@@ -12072,7 +12118,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C30356"
+		(property "LCSC" "C916162"
 			(at 138.43 214.63 0)
 			(effects
 				(font
